@@ -1,0 +1,15 @@
+{
+  "name": "httpSever",
+  "version": "1.2.0",
+  "description": "node本地http代理，支持sass实时打包生成css文件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node http.js 8081"
+  },
+  "author": "WEIJIALU",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.5.3"
+  }
+}
