@@ -6,7 +6,7 @@
  * @param node http 端口号 bind 项目相对路径
  * @example node http 8080 bind ./project/ || node http
  */
-const http = require('http');
+const http = require('http');//http模块
 const url = require('url');
 const fs = require('fs');
 const sass = require('node-sass');
